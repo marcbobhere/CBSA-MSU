@@ -5,3 +5,19 @@ body {
   /* #ccc is shorthand HEX for a light grey */
   background: #ccc;
 }
+
+header {
+  background: #18453B;
+  padding: 40px;
+}
+
+img.search-button {
+  float: right;
+}
+
+header input {
+  float: right;
+  width: 319px;
+  height: 28px;
+  border-radius: 3px;
+}
