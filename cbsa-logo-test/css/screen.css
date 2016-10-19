@@ -5,28 +5,41 @@
 body {
   /* #ccc is shorthand HEX for a light grey */
   background: #18453B;
+  font-family: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
 }
 
 header {
-  margin: 0 150px 0 150px;
+  margin: 0 100px 0 100px;
   background: #18453B;
-  padding: 40px;
+  padding: 20px 0 20px 0;
 }
 
-
 .main {
-  padding: 20px;
+  padding: 35px;
   overflow: hidden;
-  margin: 0 150px 0 150px;
+  margin: 0 100px 0 100px;
   background: #ccc;
 }
 .main .section-1 {
   float: left;
-  width: 600px;
+  width: 900px;
 }
 .main .section-2 {
   float: right;
-  width: 300px;
+  width: 250px;
+}
+
+.main .section-2 h2 {
+  color: #18453B;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+hr {
+  border-color: #18453B;
 }
 
 #masthead-logo {
@@ -92,7 +105,37 @@ nav ul {
   background-color: #97A2A2;
 }
 nav {
-  margin: 0 170px 0 150px;
+  margin: 0 120px 0 100px;
+}
+
+.CBSA-logo {
+  display: inline-block;
+  text-align: center;
+  margin: auto 0;
+}
+
+#imageC {
+  display: inline-block;
+  text-align: center;
+  margin: auto 0;
+}
+
+#imageB {
+  display: inline-block;
+  text-align: center;
+  margin: auto 0;
+}
+
+#imageS {
+  display: inline-block;
+  text-align: center;
+  margin: auto 0;
+}
+
+#imageA {
+  display: inline-block;
+  text-align: center;
+  margin: auto 0;
 }
 
 nav li {

@@ -12,8 +12,99 @@
 
         <!-- External link (relative) to your javascript file -->
         <script src="js/index.js"></script>
+
+        <script type="text/javascript">
+
+        var imageArrayC = new Array();
+        imageArrayC[0] = "images/CBSA/c-1.jpg";
+        imageArrayC[1] = "images/CBSA/c-2.jpg";
+        imageArrayC[2] = "images/CBSA/c-3.jpg";
+        imageArrayC[3] = "images/CBSA/c-4.jpg";
+        imageArrayC[4] = "images/CBSA/c-5.jpg";
+        imageArrayC[5] = "images/CBSA/c-6.jpg";
+        imageArrayC[6] = "images/CBSA/c-7.jpg";
+
+
+        function doC()
+        {
+        var rand = Math.floor(Math.random()*7);
+
+        var imgPath = "<img src='"+imageArrayC[rand]+"' alt='heder' border='0' align='absmiddle' />";
+
+        document.getElementById("imageC").innerHTML = imgPath;
+
+        }
+        </script>
+
+
+        <script type="text/javascript">
+        var imageArrayA = new Array();
+        imageArrayA[0] = "images/CBSA/a-1.jpg";
+        imageArrayA[1] = "images/CBSA/a-2.jpg";
+        imageArrayA[2] = "images/CBSA/a-3.jpg";
+        imageArrayA[3] = "images/CBSA/a-4.jpg";
+        imageArrayA[4] = "images/CBSA/a-5.jpg";
+        function doA()
+        {
+        var rand = Math.floor(Math.random()*5);
+
+        var imgPath = "<img src='"+imageArrayA[rand]+"' alt='heder' border='0' align='absmiddle' />";
+
+        document.getElementById("imageA").innerHTML = imgPath;
+
+        }
+        </script>
+
+        <script type="text/javascript">
+        var imageArrayB = new Array();
+        imageArrayB[0] = "images/CBSA/b-1.jpg";
+        imageArrayB[1] = "images/CBSA/b-2.jpg";
+        imageArrayB[2] = "images/CBSA/b-3.jpg";
+        imageArrayB[3] = "images/CBSA/b-4.jpg";
+        imageArrayB[4] = "images/CBSA/b-5.jpg";
+        imageArrayB[5] = "images/CBSA/b-6.jpg";
+        function doB()
+        {
+        var rand = Math.floor(Math.random()*6);
+
+        var imgPath = "<img src='"+imageArrayB[rand]+"' alt='heder' border='0' align='absmiddle' />";
+
+        document.getElementById("imageB").innerHTML = imgPath;
+
+        }
+        </script>
+
+
+        <script type="text/javascript">
+        var imageArrayS = new Array();
+        imageArrayS[0] = "images/CBSA/s-1.jpg";
+        imageArrayS[1] = "images/CBSA/s-2.jpg";
+        imageArrayS[2] = "images/CBSA/s-3.jpg";
+        imageArrayS[3] = "images/CBSA/s-4.jpg";
+        imageArrayS[4] = "images/CBSA/s-5.jpg";
+        function doS()
+        {
+        var rand = Math.floor(Math.random()*5);
+
+        var imgPath = "<img src='"+imageArrayS[rand]+"' alt='heder' border='0' align='absmiddle' />";
+
+        document.getElementById("imageS").innerHTML = imgPath;
+
+        }
+        </script>
+
+
     </head>
     <body>
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
       <header>
         <div id="masthead-logo">
           <img src="images/masthead-helmet-white.png" alt="MSU masthead logo" />
@@ -44,27 +135,31 @@
 
 
         <div class="main">
-          <div class="section-1">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum non nunc non suscipit. Proin elementum arcu a accumsan lacinia. Sed pulvinar maximus urna et interdum. Maecenas pharetra pretium libero a elementum. Nulla ultrices nunc sapien. Phasellus nulla tellus, venenatis sed consequat ac, venenatis vehicula augue. Cras justo quam, tincidunt sed est quis, eleifend consequat ante. Nullam pulvinar, justo et vestibulum dictum, diam lacus mattis mi, sit amet posuere mi est sit amet urna. Praesent quis urna hendrerit est cursus venenatis. Suspendisse vel ex pretium, varius arcu non, commodo metus. Donec luctus, ante a varius semper, lorem ipsum gravida ante, eget accumsan turpis nisl et odio.
+         <div class="section-1">
+           <div class="CBSA-logo">
+             <div id="imageC"></div>
+             <div id="imageB"></div>
+             <div id="imageS"></div>
+             <div id="imageA"></div>
+           </div>
 
-  Sed pretium imperdiet ante, non viverra arcu rutrum et. Nam pulvinar viverra justo ac dictum. Vestibulum rutrum sapien erat, et lobortis lacus ullamcorper eget. Nullam laoreet, dui et scelerisque blandit, dolor tortor ullamcorper dui, a facilisis quam felis eget turpis. Suspendisse vulputate dui leo, sit amet posuere libero lacinia nec. Etiam quis lectus ut nulla rutrum viverra. Quisque ac augue in nisi sodales dignissim. Morbi eu enim ac lorem scelerisque fermentum. Etiam aliquam porttitor metus nec pretium. Nullam velit quam, consectetur sit amet cursus et, posuere et erat. Donec fermentum aliquet sem, sed sagittis velit mattis in. Duis dignissim vestibulum libero, eu posuere elit pretium at. Cras in imperdiet elit.
 
-  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam in massa dignissim, laoreet elit nec, rutrum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et lectus sit amet elit rhoncus condimentum ut vel urna. Nunc elementum lectus id quam iaculis semper. Nulla ut facilisis metus. Sed dapibus massa sem. Phasellus sit amet eleifend dolor.
+         <script type="text/javascript">
+             doC();
+             doB();
+             doS();
+             doA();
+         </script>
 
-  Aliquam nibh lacus, pellentesque quis dui sed, aliquam pellentesque nibh. Quisque tincidunt porttitor tempor. Vestibulum sit amet porta dui. Quisque neque ex, sollicitudin nec rutrum ut, elementum in nisi. Fusce tempus orci sed pulvinar sagittis. Nam id hendrerit tortor. Integer nibh mi, ultricies eu sem vel, venenatis viverra felis. Nunc sagittis arcu neque, a aliquam nibh scelerisque eu. Donec tincidunt enim sed nunc aliquam pulvinar.
 
-  Morbi varius dictum imperdiet. Duis euismod id lacus vel condimentum. Nullam dui massa, placerat sit amet tempor eu, dignissim eget mauris. In commodo velit turpis. Aliquam scelerisque congue nisl sit amet consequat. Nunc pharetra suscipit eros et varius. Aliquam efficitur facilisis mattis.
-            </p>
           </div>
           <div class="section-2">
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum non nunc non suscipit. Proin elementum arcu a accumsan lacinia. Sed pulvinar maximus urna et interdum. Maecenas pharetra pretium libero a elementum. Nulla ultrices nunc sapien. Phasellus nulla tellus, venenatis sed consequat ac, venenatis vehicula augue. Cras justo quam, tincidunt sed est quis, eleifend consequat ante. Nullam pulvinar, justo et vestibulum dictum, diam lacus mattis mi, sit amet posuere mi est sit amet urna. Praesent quis urna hendrerit est cursus venenatis. Suspendisse vel ex pretium, varius arcu non, commodo metus. Donec luctus, ante a varius semper, lorem ipsum gravida ante, eget accumsan turpis nisl et odio.
+          <h2>Twitter</h2>
+          <hr>
+          <div class="pane-content">
+          <div><a class="twitter-timeline" data-chrome="noheader nofooter" data-widget-id="679353626129747969" height="375" href="https://twitter.com/michiganstateu">Tweets by @michiganstateu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+          </div>
 
-  Sed pretium imperdiet ante, non viverra arcu rutrum et. Nam pulvinar viverra justo ac dictum. Vestibulum rutrum sapien erat, et lobortis lacus ullamcorper eget. Nullam laoreet, dui et scelerisque blandit, dolor tortor ullamcorper dui, a facilisis quam felis eget turpis. Suspendisse vulputate dui leo, sit amet posuere libero lacinia nec. Etiam quis lectus ut nulla rutrum viverra. Quisque ac augue in nisi sodales dignissim. Morbi eu enim ac lorem scelerisque fermentum. Etiam aliquam porttitor metus nec pretium. Nullam velit quam, consectetur sit amet cursus et, posuere et erat. Donec fermentum aliquet sem, sed sagittis velit mattis in. Duis dignissim vestibulum libero, eu posuere elit pretium at. Cras in imperdiet elit.
-
-  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
-            </p>
           </div>
         </div>
       </section>
