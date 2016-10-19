@@ -15,10 +15,96 @@
     </head>
     <body>
       <header>
-        <img src="images/masthead-helmet-white.png" alt="MSU masthead"/>
-        <input type="search" placeholder="Search..."/>
-        <button><img class="search-button" src="images/rwd-button-search-white.png" alt="Search button" /></button>
+        <div id="masthead-logo">
+          <img src="images/masthead-helmet-white.png" alt="MSU masthead logo" />
+        </div>
+
+        <div id="search-tool-box">
+      	<!-- if you are using u.search.msu.edu use the following form values -->
+      	<!-- action should be equal to //u.search.msu.edu/index.php when using u.search.msu.edu -->
+
+      	<form>
+        	<input id="q" placeholder="Search..."/>
+        	<input id="btn_search" type="submit" value=""/>
+      	</form>
+        </div>
       </header>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#connect">Connect</a></li>
+          <li><a href="#students">Students</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#aboutus">About Us</a></li>
+        </ul>
+      </nav>
+
+      <section>
+
+
+        <div class="main">
+          <div class="section-1">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum non nunc non suscipit. Proin elementum arcu a accumsan lacinia. Sed pulvinar maximus urna et interdum. Maecenas pharetra pretium libero a elementum. Nulla ultrices nunc sapien. Phasellus nulla tellus, venenatis sed consequat ac, venenatis vehicula augue. Cras justo quam, tincidunt sed est quis, eleifend consequat ante. Nullam pulvinar, justo et vestibulum dictum, diam lacus mattis mi, sit amet posuere mi est sit amet urna. Praesent quis urna hendrerit est cursus venenatis. Suspendisse vel ex pretium, varius arcu non, commodo metus. Donec luctus, ante a varius semper, lorem ipsum gravida ante, eget accumsan turpis nisl et odio.
+
+  Sed pretium imperdiet ante, non viverra arcu rutrum et. Nam pulvinar viverra justo ac dictum. Vestibulum rutrum sapien erat, et lobortis lacus ullamcorper eget. Nullam laoreet, dui et scelerisque blandit, dolor tortor ullamcorper dui, a facilisis quam felis eget turpis. Suspendisse vulputate dui leo, sit amet posuere libero lacinia nec. Etiam quis lectus ut nulla rutrum viverra. Quisque ac augue in nisi sodales dignissim. Morbi eu enim ac lorem scelerisque fermentum. Etiam aliquam porttitor metus nec pretium. Nullam velit quam, consectetur sit amet cursus et, posuere et erat. Donec fermentum aliquet sem, sed sagittis velit mattis in. Duis dignissim vestibulum libero, eu posuere elit pretium at. Cras in imperdiet elit.
+
+  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam in massa dignissim, laoreet elit nec, rutrum ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In et lectus sit amet elit rhoncus condimentum ut vel urna. Nunc elementum lectus id quam iaculis semper. Nulla ut facilisis metus. Sed dapibus massa sem. Phasellus sit amet eleifend dolor.
+
+  Aliquam nibh lacus, pellentesque quis dui sed, aliquam pellentesque nibh. Quisque tincidunt porttitor tempor. Vestibulum sit amet porta dui. Quisque neque ex, sollicitudin nec rutrum ut, elementum in nisi. Fusce tempus orci sed pulvinar sagittis. Nam id hendrerit tortor. Integer nibh mi, ultricies eu sem vel, venenatis viverra felis. Nunc sagittis arcu neque, a aliquam nibh scelerisque eu. Donec tincidunt enim sed nunc aliquam pulvinar.
+
+  Morbi varius dictum imperdiet. Duis euismod id lacus vel condimentum. Nullam dui massa, placerat sit amet tempor eu, dignissim eget mauris. In commodo velit turpis. Aliquam scelerisque congue nisl sit amet consequat. Nunc pharetra suscipit eros et varius. Aliquam efficitur facilisis mattis.
+            </p>
+          </div>
+          <div class="section-2">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec bibendum non nunc non suscipit. Proin elementum arcu a accumsan lacinia. Sed pulvinar maximus urna et interdum. Maecenas pharetra pretium libero a elementum. Nulla ultrices nunc sapien. Phasellus nulla tellus, venenatis sed consequat ac, venenatis vehicula augue. Cras justo quam, tincidunt sed est quis, eleifend consequat ante. Nullam pulvinar, justo et vestibulum dictum, diam lacus mattis mi, sit amet posuere mi est sit amet urna. Praesent quis urna hendrerit est cursus venenatis. Suspendisse vel ex pretium, varius arcu non, commodo metus. Donec luctus, ante a varius semper, lorem ipsum gravida ante, eget accumsan turpis nisl et odio.
+
+  Sed pretium imperdiet ante, non viverra arcu rutrum et. Nam pulvinar viverra justo ac dictum. Vestibulum rutrum sapien erat, et lobortis lacus ullamcorper eget. Nullam laoreet, dui et scelerisque blandit, dolor tortor ullamcorper dui, a facilisis quam felis eget turpis. Suspendisse vulputate dui leo, sit amet posuere libero lacinia nec. Etiam quis lectus ut nulla rutrum viverra. Quisque ac augue in nisi sodales dignissim. Morbi eu enim ac lorem scelerisque fermentum. Etiam aliquam porttitor metus nec pretium. Nullam velit quam, consectetur sit amet cursus et, posuere et erat. Donec fermentum aliquet sem, sed sagittis velit mattis in. Duis dignissim vestibulum libero, eu posuere elit pretium at. Cras in imperdiet elit.
+
+  Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; 
+            </p>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="MSUwrapper dark-background" id="MSUstandardFooter" role="contentinfo">    <!-- class ’light-background' sets link colors -->
+            <div class="fourMSUcolumns" id="standard-footer-MSU-wordmark">
+                <a href="http://www.msu.edu">    <!-- Use green MSU wordmark -->
+                    <img alt="Michigan State University Wordmark" class="screen-msuwordmark" src="images/msu-wordmark-white-221x47.png" height="47" width="221" />
+
+                </a>
+            </div>
+            <div class="twelveMSUcolumns">
+            <!-- change the css to using nth child instead of classes!!!!!!-->
+                <div id="standard-footer-site-links">
+                    <ul>
+                        <li>Call us: <strong>(517) 355-7505</strong>
+                        <li><a href="/contact">Contact Information</a>
+                        <li><a href="/site-map">Site Map</a>
+                        <li><a href="/privacy-statement">Privacy Statement</a>
+                        <li><a href="/accessibility">Site Accessibility</a>
+                    </ul>
+                </div>
+                <div id="standard-footer-MSU-info">
+                    <ul>
+                        <li>Call MSU: <span class="msu-phone"><strong>(517) 355-1855</strong></span></li>
+                        <li>Visit: <strong><a href="http://msu.edu">msu.edu</a></strong></li>
+                        <li>MSU is an affirmative-action, equal-opportunity employer.</li>
+                        <li><a href="http://oie.msu.edu/"><strong>Notice of Nondiscrimination</strong></a></li>
+                    </ul>
+                    <ul>
+                        <li class="spartans-will">Spartans Will.</li>
+                        <li>@ Michigan State University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+<!-- ================================================== -->
+
         <!-- Add your site content here -->
         <!-- Relative URL image link example -->
     </body>
