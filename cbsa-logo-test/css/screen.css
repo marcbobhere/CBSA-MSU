@@ -18,7 +18,7 @@ header {
 }
 
 .main {
-  padding: 35px;
+  padding: 25px;
   overflow: hidden;
   margin: 0 100px 0 100px;
   background: #ccc;
@@ -32,10 +32,40 @@ header {
   width: 250px;
 }
 
-.main .section-2 h2 {
+h2 {
   color: #18453B;
-  margin-top: 0;
+  margin-top: 5px;
   margin-bottom: 0;
+}
+
+.CBSA-logo {
+  display: inline-block;
+  text-align: center;
+  margin: auto 0;
+}
+
+#imageC {
+  display: inline-block;
+  text-align: center;
+  margin: auto 0;
+}
+
+#imageB {
+  display: inline-block;
+  text-align: center;
+  margin: auto 0;
+}
+
+#imageS {
+  display: inline-block;
+  text-align: center;
+  margin: auto 0;
+}
+
+#imageA {
+  display: inline-block;
+  text-align: center;
+  margin: auto 0;
 }
 
 hr {
@@ -108,35 +138,7 @@ nav {
   margin: 0 120px 0 100px;
 }
 
-.CBSA-logo {
-  display: inline-block;
-  text-align: center;
-  margin: auto 0;
-}
 
-#imageC {
-  display: inline-block;
-  text-align: center;
-  margin: auto 0;
-}
-
-#imageB {
-  display: inline-block;
-  text-align: center;
-  margin: auto 0;
-}
-
-#imageS {
-  display: inline-block;
-  text-align: center;
-  margin: auto 0;
-}
-
-#imageA {
-  display: inline-block;
-  text-align: center;
-  margin: auto 0;
-}
 
 nav li {
   float: left;
