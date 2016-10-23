@@ -12,10 +12,117 @@
 
         <!-- External link (relative) to your javascript file -->
         <script src="js/index.js"></script>
+        
     </head>
     <body>
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+
+      <header>
+        <div id="masthead-logo">
+          <img src="images/masthead-helmet-white.png" alt="MSU masthead logo" />
+        </div>
+
+        <div id="search-tool-box">
+      	<!-- if you are using u.search.msu.edu use the following form values -->
+      	<!-- action should be equal to //u.search.msu.edu/index.php when using u.search.msu.edu -->
+
+      	<form>
+        	<input id="q" placeholder="Search..."/>
+        	<input id="btn_search" type="submit" value=""/>
+      	</form>
+        </div>
+      </header>
+
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#connect">Connect</a></li>
+          <li><a href="#students">Students</a></li>
+          <li><a href="#research">Research</a></li>
+          <li><a href="#aboutus">About Us</a></li>
+        </ul>
+      </nav>
+
+      <section>
+
+
+        <div class="main">
+         <div class="section-1">
+           <div class="CBSA-logo">
+             <div id="imageC"></div>
+             <div id="imageB"></div>
+             <div id="imageS"></div>
+             <div id="imageA"></div>
+           </div>
+
+
+         <script type="text/javascript">
+             doC();
+             doB();
+             doS();
+             doA();
+         </script>
+
+
+          </div>
+          <div class="section-2">
+          <h2>Facebook</h2>
+          <hr>
+          <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fspartans.msu%2F%3Ffref%3Dts&tabs=timeline&width=250&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="278" height="375" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+          <h2>Twitter</h2>
+          <hr>
+          <div class="pane-content">
+          <div><a class="twitter-timeline" data-chrome="noheader nofooter" data-widget-id="679353626129747969" height="375" href="https://twitter.com/michiganstateu">Tweets by @michiganstateu</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+          </div>
+
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="MSUwrapper dark-background" id="MSUstandardFooter" role="contentinfo">    <!-- class ’light-background' sets link colors -->
+            <div class="fourMSUcolumns" id="standard-footer-MSU-wordmark">
+                <a href="http://www.msu.edu">    <!-- Use green MSU wordmark -->
+                    <img alt="Michigan State University Wordmark" class="screen-msuwordmark" src="images/msu-wordmark-white-221x47.png" height="47" width="221" />
+
+                </a>
+            </div>
+            <div class="twelveMSUcolumns">
+            <!-- change the css to using nth child instead of classes!!!!!!-->
+                <div id="standard-footer-site-links">
+                    <ul>
+                        <li>Call us: <strong>(517) 355-7505</strong>
+                        <li><a href="/contact">Contact Information</a>
+                        <li><a href="/site-map">Site Map</a>
+                        <li><a href="/privacy-statement">Privacy Statement</a>
+                        <li><a href="/accessibility">Site Accessibility</a>
+                    </ul>
+                </div>
+                <div id="standard-footer-MSU-info">
+                    <ul>
+                        <li>Call MSU: <span class="msu-phone"><strong>(517) 355-1855</strong></span></li>
+                        <li>Visit: <strong><a href="http://msu.edu">msu.edu</a></strong></li>
+                        <li>MSU is an affirmative-action, equal-opportunity employer.</li>
+                        <li><a href="http://oie.msu.edu/"><strong>Notice of Nondiscrimination</strong></a></li>
+                    </ul>
+                    <ul>
+                        <li class="spartans-will">Spartans Will.</li>
+                        <li>@ Michigan State University</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </footer>
+
+<!-- ================================================== -->
+
         <!-- Add your site content here -->
         <!-- Relative URL image link example -->
-        <img src="images/northport.jpg" alt="Northport" />
     </body>
 </html>
